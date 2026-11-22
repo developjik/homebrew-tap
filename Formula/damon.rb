@@ -1,27 +1,27 @@
 class Damon < Formula
   desc "Local multi-provider agent daemon"
   homepage "https://github.com/developjik/damon-agent-core"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/developjik/damon-agent-core/releases/download/v0.8.0/damon-aarch64-apple-darwin.tar.gz"
-      sha256 "ed3573350bb8924789ecae7b785015f697fd987dc8ac2728fc85a1bee287d2c1"
+      url "https://github.com/developjik/damon-agent-core/releases/download/v0.9.0/damon-aarch64-apple-darwin.tar.gz"
+      sha256 "af666aa7c642535df8207dd0a2bff6093050cabc206b7e043a0f8b76a5994dff"
     end
     on_intel do
-      url "https://github.com/developjik/damon-agent-core/releases/download/v0.8.0/damon-x86_64-apple-darwin.tar.gz"
-      sha256 "3175ab722b6b4132c3470065010938e90d66ce39d201b8f5f6f499e9f4eb578d"
+      url "https://github.com/developjik/damon-agent-core/releases/download/v0.9.0/damon-x86_64-apple-darwin.tar.gz"
+      sha256 "0db9d343f2572241a95ca5ec1719bb19f7359294269688e40e2937d716d643cd"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/developjik/damon-agent-core/releases/download/v0.8.0/damon-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a82fb157f9262630d402ea07bc227c2ec18337387a26ea47f9faf2c8d8b21ef1"
+      url "https://github.com/developjik/damon-agent-core/releases/download/v0.9.0/damon-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "98e00f9e3aa5b65395ecf0e4c04f0e5e5278ed9c41594528db058731965f5916"
     end
     on_arm do
-      url "https://github.com/developjik/damon-agent-core/releases/download/v0.8.0/damon-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "85dc7652bc22fb4e242e08f1d9d1cb9a711eba5ed9c71eb6abb9a9d8cb997dfe"
+      url "https://github.com/developjik/damon-agent-core/releases/download/v0.9.0/damon-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "06af951c9104ca02e166bcd995c6e51d2f893b1f4deef720824059a5bf3f0da6"
     end
   end
 
